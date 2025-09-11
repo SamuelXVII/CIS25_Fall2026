@@ -1,0 +1,26 @@
+#include <iostream> 
+using namespace std; 
+
+
+
+int main(void) 
+{ 
+	//First list variable type for cin to store the information as
+	int amountPurchasing; 
+	float cost; // Price is stored as decimals
+    string itemForPurchase; //Name are words so use string variable
+ 
+	cout << "\n\nWhat do you want to buy; Bread, Milk or OrangeJuice? You can't select multiple.\n"; 
+	cin >> itemForPurchase; //The string variable doesn't store inputs with spaces, so OrangeJuice is one word.
+	cout << "How much of that item would you like to buy? \n"; 
+	cin >> amountPurchasing; 
+	cout << "Check Menu and enter price listed next to each item.\n\n "; 
+    cout << "\t Bread       || 2.00 \n ";
+    cout << "\t Milk        || 5.00 \n "; 
+    cout << "\t OrangeJuice || 4.25 \n";  
+	cin >> cost; 
+ 
+	cout << "Thank for your purchase of " << itemForPurchase << "."; 
+	cout << " Your total amounts to $" << (amountPurchasing * cost) << ".\n"; 
+    return 0;
+}  
