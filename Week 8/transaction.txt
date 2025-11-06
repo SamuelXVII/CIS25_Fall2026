@@ -1,0 +1,13 @@
+Deposit: $500
+Purchase - Lego set: $97.99
+Purchase - Graphing calculator: $156
+Deposit: $500
+Purchase type: Lego set: $97.99
+Purchase type: Graphing calculator: $156
+Deposit: $500
+Purchase type: Lego set: $97.99
+Purchase type: Graphing calculator: $156
+Deposit: $500
+Deposit: $1000
+Purchase type: Lego set: $97.99
+Purchase type: Graphing calculator: $156
